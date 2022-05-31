@@ -36,8 +36,10 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
                 .send(`image_url is required`);
     }
 
+    let filteredPath = filterImageFromURL(image_url);
+
     return res.status(200)
-              .send(`Given url: ${image_url}`);
+              .send(`filteredPath: ${filteredPath}`);
   } );
 
   //! END @TODO1
