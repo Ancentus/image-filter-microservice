@@ -45,7 +45,7 @@ import fs from "fs";
           .sendFile(filteredpath);
       })
       .catch(error => {
-        return res.status(500)
+        return res.status(422)
           .send(`an error occurred`);
       })
       .finally(() => {
