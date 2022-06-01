@@ -1,8 +1,6 @@
 # Udagram Image Filtering Microservice
 
-A Node-Express application which runs a simple script to process images. [Your assignment]
-
-## Tasks
+A Node-Express application which runs a simple script to process images.
 
 ### Setup Node Environment
 
